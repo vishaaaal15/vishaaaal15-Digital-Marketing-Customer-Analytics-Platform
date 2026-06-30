@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Digital Marketing &amp; Customer Analytics Dashboard</title>
+<style>
+  body { font-family: 'Segoe UI', Arial, sans-serif; background: #f4f6fa; margin: 0; padding: 24px; color: #1f2937; }
+  h1 { color: #1F3864; margin-bottom: 4px; }
+  .subtitle { color: #555; margin-top: 0; margin-bottom: 24px; }
+  .kpi-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 16px; margin-bottom: 28px; }
+  .kpi-card { background: white; border-radius: 10px; padding: 16px 20px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); border-left: 4px solid #2E5395; }
+  .kpi-label { font-size: 13px; color: #666; text-transform: uppercase; letter-spacing: 0.04em; }
+  .kpi-value { font-size: 24px; font-weight: 700; color: #1F3864; margin-top: 4px; }
+  .kpi-sub { font-size: 12px; color: #888; margin-top: 2px; }
+  .charts-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(420px, 1fr)); gap: 20px; }
+  .chart-card { background: white; border-radius: 10px; padding: 16px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
+  .chart-card img { width: 100%; height: auto; border-radius: 6px; }
+  .insight { background: #EAF1FB; border-left: 4px solid #2E5395; padding: 14px 18px; border-radius: 8px; margin: 24px 0; font-size: 14px; }
+  footer { margin-top: 30px; font-size: 12px; color: #999; text-align: center; }
+</style>
+</head>
+<body>
+
+<h1>Digital Marketing &amp; Customer Analytics Platform</h1>
+<p class="subtitle">180,000 customers · 12 campaigns · 5 channels · ₹3.72 Cr ad spend analyzed</p>
+
+<div class="kpi-grid">
+  <div class="kpi-card">
+    <div class="kpi-label">Total Conversions</div>
+    <div class="kpi-value">9,505</div>
+    <div class="kpi-sub">5.28% conversion rate</div>
+  </div>
+  <div class="kpi-card">
+    <div class="kpi-label">Overall CAC</div>
+    <div class="kpi-value">₹3,912.56</div>
+    <div class="kpi-sub">Email lowest at ₹659</div>
+  </div>
+  <div class="kpi-card">
+    <div class="kpi-label">Total Revenue</div>
+    <div class="kpi-value">₹4.03 Cr</div>
+    <div class="kpi-sub">8.50% overall ROI</div>
+  </div>
+  <div class="kpi-card">
+    <div class="kpi-label">Avg. CLV</div>
+    <div class="kpi-value">₹4,263.88</div>
+    <div class="kpi-sub">85.23% repeat purchase rate</div>
+  </div>
+  <div class="kpi-card">
+    <div class="kpi-label">Best Channel (ROI)</div>
+    <div class="kpi-value">Email</div>
+    <div class="kpi-sub">540.66% ROI</div>
+  </div>
+  <div class="kpi-card">
+    <div class="kpi-label">High-Value Segment</div>
+    <div class="kpi-value">25.8%</div>
+    <div class="kpi-sub">of customers → 41.6% of revenue</div>
+  </div>
+</div>
+
+<div class="insight">
+  <strong>Key insight:</strong> Email delivers the lowest CAC (₹659) and highest ROI (540.66%) of any channel, while Display spend (₹13,227 CAC) is producing negative ROI (-67.6%). Reallocating budget from Display toward Email/Affiliate and prioritizing retention campaigns for the High-Value RFM segment is the clearest path to improving blended marketing ROI.
+</div>
+
+<div class="charts-grid">
+  <div class="chart-card"><img src="cac_by_channel.png" alt="CAC by Channel"></div>
+  <div class="chart-card"><img src="roi_by_channel.png" alt="ROI by Channel"></div>
+  <div class="chart-card"><img src="rfm_segments_pie.png" alt="RFM Segments"></div>
+  <div class="chart-card"><img src="monthly_trend.png" alt="Monthly Acquisition Trend"></div>
+</div>
+
+<footer>Vishal Singh · github.com/vishaaaal15 · Generated from analysis.py — see repository README for full methodology</footer>
+
+</body>
+</html>

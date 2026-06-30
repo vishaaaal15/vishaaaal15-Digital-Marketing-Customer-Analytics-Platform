@@ -1,0 +1,17 @@
+{
+  "total_customers": 180000,
+  "total_ad_spend": 37188841.68,
+  "total_conversions": 9505,
+  "overall_conversion_rate_pct": 5.28,
+  "overall_cac": 3912.56,
+  "total_revenue": 40349066.7,
+  "overall_roi_pct": 8.5,
+  "avg_clv": 4263.88,
+  "repeat_purchase_rate_pct": 85.23,
+  "high_value_pct_of_customers": 25.8,
+  "high_value_pct_of_revenue": 41.63,
+  "best_channel_by_roi": "Email",
+  "best_channel_roi_pct": 540.66,
+  "lowest_cac_channel": "Email",
+  "lowest_cac_value": 659.25
+}
